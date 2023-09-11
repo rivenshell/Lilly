@@ -3,29 +3,34 @@ import { Fragment, useState } from "react"
 import { Dialog, Transition } from "@headlessui/react"
 import {
   Bars3Icon,
-  BoltIcon,
-  SignalIcon,
-  GlobeAltIcon,
+  ChatBubbleLeftRightIcon,
+  BookOpenIcon,
+  MoonIcon,
   FolderIcon,
-  ChartBarSquareIcon,
+  PuzzlePieceIcon,
   Cog6ToothIcon,
   XMarkIcon,
-} from "@heroicons/react/24/outline"
+} from "@heroicons/react/24/solid"
 
 const navigation = [
   { name: "Dashboard", href: "/dashboard", icon: FolderIcon, current: false },
-  { name: "Reflection", href: "/reflection", icon: BoltIcon, current: !true },
-  { name: "Notes", href: "/notes", icon: SignalIcon, current: false },
+  {
+    name: "Reflection",
+    href: "/reflection",
+    icon: ChatBubbleLeftRightIcon,
+    current: !true,
+  },
+  { name: "Notes", href: "/notes", icon: BookOpenIcon, current: false },
   {
     name: "Sami Space",
     href: "/samispace",
-    icon: GlobeAltIcon,
+    icon: MoonIcon,
     current: false,
   },
   {
     name: "Code Space",
     href: "/codespace",
-    icon: ChartBarSquareIcon,
+    icon: PuzzlePieceIcon,
     current: false,
   },
   { name: "Settings", href: "/settings", icon: Cog6ToothIcon, current: false },
