@@ -3,7 +3,7 @@ import { Fragment, useState } from "react"
 import { Dialog, Transition } from "@headlessui/react"
 import {
   Bars3Icon,
-  ServerIcon,
+  BoltIcon,
   SignalIcon,
   GlobeAltIcon,
   FolderIcon,
@@ -13,15 +13,31 @@ import {
 } from "@heroicons/react/24/outline"
 
 const navigation = [
-  { name: "Dashboard", href: "#", icon: FolderIcon, current: false },
-  { name: "Reflection", href: "/reflection", icon: ServerIcon, current: !true },
+  { name: "Dashboard", href: "/dashboard", icon: FolderIcon, current: false },
+  { name: "Reflection", href: "/reflection", icon: BoltIcon, current: !true },
   { name: "Notes", href: "/notes", icon: SignalIcon, current: false },
-  { name: "Sami Space", href: "#", icon: GlobeAltIcon, current: false },
-  { name: "Code Space", href: "#", icon: ChartBarSquareIcon, current: false },
-  { name: "Settings", href: "#", icon: Cog6ToothIcon, current: false },
+  {
+    name: "Sami Space",
+    href: "/samispace",
+    icon: GlobeAltIcon,
+    current: false,
+  },
+  {
+    name: "Code Space",
+    href: "/codespace",
+    icon: ChartBarSquareIcon,
+    current: false,
+  },
+  { name: "Settings", href: "/settings", icon: Cog6ToothIcon, current: false },
 ]
 const teams = [
-  { id: 1, name: "Heroicons", href: "#", initial: "H", current: false },
+  {
+    id: 1,
+    name: "atom -- Creative Development Agency",
+    href: "#",
+    initial: "H",
+    current: false,
+  },
   { id: 2, name: "Tailwind Labs", href: "#", initial: "T", current: false },
   { id: 3, name: "Workcation", href: "#", initial: "W", current: false },
 ]

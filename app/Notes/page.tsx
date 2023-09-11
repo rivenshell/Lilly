@@ -3,7 +3,7 @@ import Nav from "../components/Nav"
 
 console.log("if this does")
 
-export default function page() {
+export default function notes() {
   return (
     <>
       <Nav />
