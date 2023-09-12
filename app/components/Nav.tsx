@@ -13,7 +13,7 @@ import {
 } from "@heroicons/react/24/solid"
 
 const navigation = [
-  { name: "Dashboard", href: "/dashboard", icon: FolderIcon, current: false },
+  { name: "Dashboard", href: "/", icon: FolderIcon, current: false },
   {
     name: "Reflection",
     href: "/reflection",
