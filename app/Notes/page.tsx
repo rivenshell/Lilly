@@ -7,7 +7,7 @@ export default function notes() {
   return (
     <>
       <Nav />
-      <div className="text-center">Is this working</div>
+      <div className="text-center">😏</div>
     </>
   )
 }
