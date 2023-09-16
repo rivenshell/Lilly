@@ -3,11 +3,14 @@ import Nav from "../components/Nav"
 
 console.log("if this does")
 
-export default function notes() {
+export default function Notes() {
   return (
     <>
       <Nav />
-      <div className="text-center">😏</div>
+      <div className="text-center">
+        😏
+        <h2 className="text-2xl">Notes</h2>
+      </div>
     </>
   )
 }
