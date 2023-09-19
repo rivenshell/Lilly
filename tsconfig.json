@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     "app/components/Application.jsx",
     "app/components/AppShell.tsx"
-  ],
+, "app/api/auth/[...nextauth].js"  ],
   "exclude": ["node_modules"]
 }
