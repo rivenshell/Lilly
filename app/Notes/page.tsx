@@ -1,5 +1,6 @@
 import React from "react"
 import Nav from "../components/Nav"
+import Payment from "../components/Payment"
 
 console.log("if this does")
 
@@ -13,6 +14,7 @@ export default function Notes() {
         😏
         <h2 className="text-2xl">Notes</h2>
       </div>
+      <Payment />
     </>
   )
 }
