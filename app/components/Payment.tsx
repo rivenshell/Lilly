@@ -99,7 +99,7 @@ export default function Example() {
                 <p className="mt-4 text-sm leading-6 text-gray-600">
                   {tier.description}
                 </p>
-                <p className="mt-6 flex items-baseline gap-x-1">
+                <p className="mt-6 text-center flex items-baseline gap-x-1">
                   <span className="text-4xl font-bold tracking-tight text-gray-900">
                     {tier.priceMonthly}
                   </span>
