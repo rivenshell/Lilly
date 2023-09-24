@@ -3,6 +3,8 @@ import Nav from "../components/Nav"
 import Payment from "../components/Payment"
 
 console.log("if this does")
+const n = [1, 2, 3, 7]
+console.log(n)
 
 export default function Notes() {
   return (
