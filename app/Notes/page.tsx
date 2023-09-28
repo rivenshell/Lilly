@@ -3,7 +3,7 @@ import Nav from "../components/Nav"
 import Payment from "../components/Payment"
 
 console.log("if this does")
-const n = [1, 2, 3, 7]
+const n = [2, 5, 7, 11]
 console.log(n)
 
 export default function Notes() {
